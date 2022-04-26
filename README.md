@@ -1,5 +1,5 @@
 # React Admin Example: Authentication using OIDC.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![FOSSA Status](https://app.fossa.com/api/projects/custom%2B31163%2Fgithub.com%2Fbwgz%2Fra-example-oidc.svg?type=shield)](https://app.fossa.com/projects/custom%2B31163%2Fgithub.com%2Fbwgz%2Fra-example-oidc?ref=badge_shield) [![TypeScript](https://img.shields.io/badge/--3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![FOSSA Status](https://app.fossa.com/api/projects/custom%2B31163%2Fgithub.com%2Fbwgz%2Fra-example-oidc.svg?type=shield)](https://app.fossa.com/projects/custom%2B31163%2Fgithub.com%2Fbwgz%2Fra-example-oidc?ref=badge_shield) [![TypeScript](https://img.shields.io/badge/--3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/) [![React](https://badges.aleen42.com/src/react.svg)](https://reactjs.org/)
 
 
 This application implements a [react-admin](https://marmelab.com/react-admin/) authentication provider for OIDC.
