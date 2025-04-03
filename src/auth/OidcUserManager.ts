@@ -5,11 +5,11 @@ import {
   WebStorageStateStore,
 } from "oidc-client-ts";
 
-const client_id = process.env.AM_APP_CLIENT_ID || '';
-const client_secret = process.env.AM_APP_CLIENT_SECRET || undefined;
+const client_id = process.env.REACT_APP_CLIENT_ID || '';
+const client_secret = process.env.REACT_APP_CLIENT_SECRET || undefined;
 
-const authority: string = process.env.AM_APP_AUTHORITY || "https://accounts.google.com/o/oauth2/v2/auth";
-const redirect_uri: string = process.env.AM_APP_REDIRECT_URI || "http://localhost:3000/login";
+const authority: string = process.env.REACT_APP_AUTHORITY || "https://accounts.google.com/o/oauth2/v2/auth";
+const redirect_uri: string = process.env.REACT_APP_REDIRECT_URI || "http://localhost:3000/login";
 const scope: string = "openid email profile";
 const response_type: string = "code";
 const userStore = new WebStorageStateStore({ store: window.localStorage });
@@ -17,8 +17,8 @@ const automaticSilentRenew = true;
 const filterProtocolClaims = true;
 
 const authorization_endpoint = authority;
-const jwks_uri = process.env.AM_APP_JWKS_URI || "https://accounts.google.com/.well-known/openid-configuration";
-const token_endpoint = process.env.AM_APP_TOKEN_ENDPOINT || "https://www.googleapis.com/oauth2/v4/token";
+const jwks_uri = process.env.REACT_APP_JWKS_URI || "https://accounts.google.com/.well-known/openid-configuration";
+const token_endpoint = process.env.REACT_APP_TOKEN_ENDPOINT || "https://www.googleapis.com/oauth2/v4/token";
 
 const metadata: Partial<OidcMetadata> = {
   authorization_endpoint,
