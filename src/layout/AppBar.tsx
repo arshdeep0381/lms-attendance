@@ -35,7 +35,6 @@ const CustomUserMenu = () => (
     <UserMenu>
         <ProfileMenu />
         <Divider />
-        <Logout />
     </UserMenu>
 );
 
